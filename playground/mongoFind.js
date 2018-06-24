@@ -17,7 +17,7 @@ MongoClient.connect('mongodb://localhost:27017/',(err, db)=>{
 // });
 // dbo.collection("employees").find(
 //   {_id: new ObjectID('5b2fc90294154564a4aed6fe ')
-// }).toArray().then((docs)=>{
+
 // if(err) throw err;
 // console.log('Todos');
 // console.log(JSON.stringify(docs, undefined, 2));
